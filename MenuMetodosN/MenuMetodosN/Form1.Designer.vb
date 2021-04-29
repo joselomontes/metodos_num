@@ -339,7 +339,7 @@ Partial Class Form1
         Me.Button3.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button3.Size = New System.Drawing.Size(223, 38)
         Me.Button3.TabIndex = 1
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Impares"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button3.UseVisualStyleBackColor = False
         '

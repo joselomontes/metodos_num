@@ -2,6 +2,7 @@
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         hideSubMenu()
         'Son cambios muy sencillos
+        'Hola zoex
     End Sub
 
     Private Sub hideSubMenu()

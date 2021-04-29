@@ -1,0 +1,13 @@
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.exe.config
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.exe
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.pdb
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.xml
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.vbprojAssemblyReference.cache
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form1.resources
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Resources.resources
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.vbproj.GenerateResource.cache
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.vbproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.exe
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.xml
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.pdb
+C:\Users\marco\source\repos\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form2.resources

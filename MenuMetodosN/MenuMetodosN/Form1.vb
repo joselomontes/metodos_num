@@ -46,7 +46,7 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-
+        openChildForm(New Form4())
         hideSubMenu()
     End Sub
 

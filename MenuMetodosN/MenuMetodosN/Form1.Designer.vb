@@ -22,6 +22,7 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.PanelChildForm = New System.Windows.Forms.Panel()
         Me.PanelSideMenu = New System.Windows.Forms.Panel()
         Me.PanelDepa3 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -43,7 +44,6 @@ Partial Class Form1
         Me.Depa1 = New System.Windows.Forms.Button()
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PanelChildForm = New System.Windows.Forms.Panel()
         Me.PanelSideMenu.SuspendLayout()
         Me.PanelDepa3.SuspendLayout()
         Me.PanelDep2.SuspendLayout()
@@ -51,6 +51,14 @@ Partial Class Form1
         Me.PanelLogo.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'PanelChildForm
+        '
+        Me.PanelChildForm.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelChildForm.Location = New System.Drawing.Point(223, 0)
+        Me.PanelChildForm.Name = "PanelChildForm"
+        Me.PanelChildForm.Size = New System.Drawing.Size(945, 717)
+        Me.PanelChildForm.TabIndex = 1
         '
         'PanelSideMenu
         '
@@ -321,7 +329,7 @@ Partial Class Form1
         Me.Button4.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button4.Size = New System.Drawing.Size(223, 38)
         Me.Button4.TabIndex = 2
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "Bisección"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button4.UseVisualStyleBackColor = False
         '
@@ -398,14 +406,6 @@ Partial Class Form1
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
-        '
-        'PanelChildForm
-        '
-        Me.PanelChildForm.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PanelChildForm.Location = New System.Drawing.Point(223, 0)
-        Me.PanelChildForm.Name = "PanelChildForm"
-        Me.PanelChildForm.Size = New System.Drawing.Size(945, 717)
-        Me.PanelChildForm.TabIndex = 1
         '
         'Form1
         '

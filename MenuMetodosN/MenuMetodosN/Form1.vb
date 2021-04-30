@@ -41,17 +41,17 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-
+        openChildForm(New Form3())
         hideSubMenu()
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-
+        openChildForm(New Form4())
         hideSubMenu()
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-
+        openChildForm(New Form5())
         hideSubMenu()
     End Sub
 

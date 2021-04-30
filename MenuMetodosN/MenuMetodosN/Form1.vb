@@ -56,21 +56,20 @@
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-
+        openChildForm(New Form2_1())
         hideSubMenu()
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        openChildForm(New Form2_2())
         hideSubMenu()
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        openChildForm(New Gráfica())
         hideSubMenu()
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        hideSubMenu()
-    End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
 
@@ -103,5 +102,7 @@
         childForm.Show()
     End Sub
 
+    Private Sub PanelLogo_Paint(sender As Object, e As PaintEventArgs) Handles PanelLogo.Paint
 
+    End Sub
 End Class

@@ -24,7 +24,9 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.PanelChildForm = New System.Windows.Forms.Panel()
         Me.PanelSideMenu = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PanelDepa3 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
@@ -45,6 +47,7 @@ Partial Class Form1
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PanelSideMenu.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelDepa3.SuspendLayout()
         Me.PanelDep2.SuspendLayout()
         Me.PanelDepUno.SuspendLayout()
@@ -57,7 +60,7 @@ Partial Class Form1
         Me.PanelChildForm.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelChildForm.Location = New System.Drawing.Point(223, 0)
         Me.PanelChildForm.Name = "PanelChildForm"
-        Me.PanelChildForm.Size = New System.Drawing.Size(945, 717)
+        Me.PanelChildForm.Size = New System.Drawing.Size(945, 857)
         Me.PanelChildForm.TabIndex = 1
         '
         'PanelSideMenu
@@ -66,6 +69,7 @@ Partial Class Form1
         Me.PanelSideMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(11, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(17, Byte), Integer))
         Me.PanelSideMenu.BackgroundImage = Global.MenuMetodosN.My.Resources.Resources._093d61b7a6651f55631a2fd9847a7fbc
         Me.PanelSideMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PanelSideMenu.Controls.Add(Me.PictureBox2)
         Me.PanelSideMenu.Controls.Add(Me.PanelDepa3)
         Me.PanelSideMenu.Controls.Add(Me.Depa3)
         Me.PanelSideMenu.Controls.Add(Me.PanelDep2)
@@ -76,11 +80,23 @@ Partial Class Form1
         Me.PanelSideMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelSideMenu.Location = New System.Drawing.Point(0, 0)
         Me.PanelSideMenu.Name = "PanelSideMenu"
-        Me.PanelSideMenu.Size = New System.Drawing.Size(223, 717)
+        Me.PanelSideMenu.Size = New System.Drawing.Size(223, 857)
         Me.PanelSideMenu.TabIndex = 0
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = Global.MenuMetodosN.My.Resources.Resources.hamtaroAmerica
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 710)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(223, 101)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
         '
         'PanelDepa3
         '
+        Me.PanelDepa3.Controls.Add(Me.Panel2)
         Me.PanelDepa3.Controls.Add(Me.Button1)
         Me.PanelDepa3.Controls.Add(Me.Button10)
         Me.PanelDepa3.Controls.Add(Me.Button11)
@@ -90,6 +106,14 @@ Partial Class Form1
         Me.PanelDepa3.Name = "PanelDepa3"
         Me.PanelDepa3.Size = New System.Drawing.Size(223, 158)
         Me.PanelDepa3.TabIndex = 1
+        '
+        'Panel2
+        '
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel2.Location = New System.Drawing.Point(0, 152)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(223, 107)
+        Me.Panel2.TabIndex = 0
         '
         'Button1
         '
@@ -390,6 +414,7 @@ Partial Class Form1
         '
         'PanelLogo
         '
+        Me.PanelLogo.BackColor = System.Drawing.Color.Gold
         Me.PanelLogo.Controls.Add(Me.PictureBox1)
         Me.PanelLogo.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelLogo.Location = New System.Drawing.Point(0, 0)
@@ -412,7 +437,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(1168, 717)
+        Me.ClientSize = New System.Drawing.Size(1168, 857)
         Me.Controls.Add(Me.PanelChildForm)
         Me.Controls.Add(Me.PanelSideMenu)
         Me.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -420,6 +445,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelSideMenu.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelDepa3.ResumeLayout(False)
         Me.PanelDep2.ResumeLayout(False)
         Me.PanelDepUno.ResumeLayout(False)
@@ -451,4 +477,6 @@ Partial Class Form1
     Friend WithEvents Button9 As Button
     Friend WithEvents Depa2 As Button
     Friend WithEvents PanelChildForm As Panel
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Panel2 As Panel
 End Class

@@ -149,7 +149,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form2_1.resx">
       <DependentUpon>Form2_1.vb</DependentUpon>
     </EmbeddedResource>

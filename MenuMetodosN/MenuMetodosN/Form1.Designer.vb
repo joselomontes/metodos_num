@@ -311,7 +311,7 @@ Partial Class Form1
         Me.Button5.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button5.Size = New System.Drawing.Size(223, 38)
         Me.Button5.TabIndex = 3
-        Me.Button5.Text = "Gauss Seidel"
+        Me.Button5.Text = "Newton"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button5.UseVisualStyleBackColor = False
         '

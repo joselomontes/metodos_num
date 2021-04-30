@@ -124,10 +124,16 @@
   <data name="093d61b7a6651f55631a2fd9847a7fbc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\093d61b7a6651f55631a2fd9847a7fbc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="amebacknegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\amebacknegro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="america-mexico-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\america-mexico-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="amebacknegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\amebacknegro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hamtaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamtaro.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hamtaro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamtaro1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

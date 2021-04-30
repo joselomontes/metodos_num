@@ -86,7 +86,7 @@ Partial Class Form1
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PictureBox2.Image = Global.MenuMetodosN.My.Resources.Resources.hamtaroAmerica
+        Me.PictureBox2.Image = Global.MenuMetodosN.My.Resources.Resources.hamtaro
         Me.PictureBox2.Location = New System.Drawing.Point(0, 710)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(223, 92)

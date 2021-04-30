@@ -51,7 +51,7 @@
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-
+        openChildForm(New Form5())
         hideSubMenu()
     End Sub
 

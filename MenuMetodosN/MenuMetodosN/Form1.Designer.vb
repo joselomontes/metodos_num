@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.PanelChildForm = New System.Windows.Forms.Panel()
         Me.PanelSideMenu = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PanelDepa3 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
@@ -44,6 +45,7 @@ Partial Class Form1
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PanelSideMenu.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelDepa3.SuspendLayout()
         Me.PanelDep2.SuspendLayout()
         Me.PanelDepUno.SuspendLayout()
@@ -65,6 +67,7 @@ Partial Class Form1
         Me.PanelSideMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(11, Byte), Integer), CType(CType(7, Byte), Integer), CType(CType(17, Byte), Integer))
         Me.PanelSideMenu.BackgroundImage = Global.MenuMetodosN.My.Resources.Resources._093d61b7a6651f55631a2fd9847a7fbc
         Me.PanelSideMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PanelSideMenu.Controls.Add(Me.PictureBox2)
         Me.PanelSideMenu.Controls.Add(Me.PanelDepa3)
         Me.PanelSideMenu.Controls.Add(Me.Depa3)
         Me.PanelSideMenu.Controls.Add(Me.PanelDep2)
@@ -77,6 +80,18 @@ Partial Class Form1
         Me.PanelSideMenu.Name = "PanelSideMenu"
         Me.PanelSideMenu.Size = New System.Drawing.Size(223, 724)
         Me.PanelSideMenu.TabIndex = 0
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PictureBox2.Image = Global.MenuMetodosN.My.Resources.Resources.hamtaro
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 710)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(223, 92)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
         '
         'PanelDepa3
         '
@@ -291,7 +306,7 @@ Partial Class Form1
         Me.Button5.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button5.Size = New System.Drawing.Size(223, 38)
         Me.Button5.TabIndex = 3
-        Me.Button5.Text = "Button5"
+        Me.Button5.Text = "Newton"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button5.UseVisualStyleBackColor = False
         '
@@ -400,6 +415,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelSideMenu.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelDepa3.ResumeLayout(False)
         Me.PanelDep2.ResumeLayout(False)
         Me.PanelDepUno.ResumeLayout(False)
@@ -430,4 +446,5 @@ Partial Class Form1
     Friend WithEvents Button9 As Button
     Friend WithEvents Depa2 As Button
     Friend WithEvents PanelChildForm As Panel
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

@@ -24,22 +24,3 @@ D:\ZOE\UPIICSA\Semestre 6\Metodos\Menu\MenuMetodosN\MenuMetodosN\obj\Debug\MenuM
 D:\ZOE\UPIICSA\Semestre 6\Metodos\Menu\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.exe
 D:\ZOE\UPIICSA\Semestre 6\Metodos\Menu\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.xml
 D:\ZOE\UPIICSA\Semestre 6\Metodos\Menu\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.pdb
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.exe.config
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.exe
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.pdb
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.xml
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.vbprojAssemblyReference.cache
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form1.resources
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form2.resources
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form2_1.resources
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form3.resources
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form4.resources
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Resources.resources
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.vbproj.GenerateResource.cache
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.vbproj.CoreCompileInputs.cache
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.vbproj.CopyComplete
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.exe
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.xml
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.pdb
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form2_2.resources
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Gráfica.resources

@@ -70,9 +70,6 @@
         hideSubMenu()
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        hideSubMenu()
-    End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
 

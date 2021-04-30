@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.PanelChildForm = New System.Windows.Forms.Panel()
         Me.PanelSideMenu = New System.Windows.Forms.Panel()
@@ -43,7 +43,6 @@ Partial Class Form1
         Me.Depa1 = New System.Windows.Forms.Button()
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.PanelSideMenu.SuspendLayout()
         Me.PanelDepa3.SuspendLayout()
         Me.PanelDep2.SuspendLayout()
@@ -57,7 +56,7 @@ Partial Class Form1
         Me.PanelChildForm.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelChildForm.Location = New System.Drawing.Point(223, 0)
         Me.PanelChildForm.Name = "PanelChildForm"
-        Me.PanelChildForm.Size = New System.Drawing.Size(945, 717)
+        Me.PanelChildForm.Size = New System.Drawing.Size(945, 724)
         Me.PanelChildForm.TabIndex = 1
         '
         'PanelSideMenu
@@ -76,7 +75,7 @@ Partial Class Form1
         Me.PanelSideMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelSideMenu.Location = New System.Drawing.Point(0, 0)
         Me.PanelSideMenu.Name = "PanelSideMenu"
-        Me.PanelSideMenu.Size = New System.Drawing.Size(223, 717)
+        Me.PanelSideMenu.Size = New System.Drawing.Size(223, 724)
         Me.PanelSideMenu.TabIndex = 0
         '
         'PanelDepa3
@@ -86,7 +85,7 @@ Partial Class Form1
         Me.PanelDepa3.Controls.Add(Me.Button11)
         Me.PanelDepa3.Controls.Add(Me.Button12)
         Me.PanelDepa3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PanelDepa3.Location = New System.Drawing.Point(0, 552)
+        Me.PanelDepa3.Location = New System.Drawing.Point(0, 513)
         Me.PanelDepa3.Name = "PanelDepa3"
         Me.PanelDepa3.Size = New System.Drawing.Size(223, 158)
         Me.PanelDepa3.TabIndex = 1
@@ -173,7 +172,7 @@ Partial Class Form1
         Me.Depa3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Depa3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Depa3.ForeColor = System.Drawing.Color.AliceBlue
-        Me.Depa3.Location = New System.Drawing.Point(0, 510)
+        Me.Depa3.Location = New System.Drawing.Point(0, 471)
         Me.Depa3.Name = "Depa3"
         Me.Depa3.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
         Me.Depa3.Size = New System.Drawing.Size(223, 42)
@@ -184,14 +183,13 @@ Partial Class Form1
         '
         'PanelDep2
         '
-        Me.PanelDep2.Controls.Add(Me.Button6)
         Me.PanelDep2.Controls.Add(Me.Button7)
         Me.PanelDep2.Controls.Add(Me.Button8)
         Me.PanelDep2.Controls.Add(Me.Button9)
         Me.PanelDep2.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelDep2.Location = New System.Drawing.Point(0, 357)
         Me.PanelDep2.Name = "PanelDep2"
-        Me.PanelDep2.Size = New System.Drawing.Size(223, 153)
+        Me.PanelDep2.Size = New System.Drawing.Size(223, 114)
         Me.PanelDep2.TabIndex = 1
         '
         'Button7
@@ -389,30 +387,12 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.ForeColor = System.Drawing.Color.Navy
-        Me.Button6.Location = New System.Drawing.Point(0, 114)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button6.Size = New System.Drawing.Size(223, 38)
-        Me.Button6.TabIndex = 7
-        Me.Button6.Text = "Button6"
-        Me.Button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button6.UseVisualStyleBackColor = False
-        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(1168, 717)
+        Me.ClientSize = New System.Drawing.Size(1168, 724)
         Me.Controls.Add(Me.PanelChildForm)
         Me.Controls.Add(Me.PanelSideMenu)
         Me.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -450,5 +430,4 @@ Partial Class Form1
     Friend WithEvents Button9 As Button
     Friend WithEvents Depa2 As Button
     Friend WithEvents PanelChildForm As Panel
-    Friend WithEvents Button6 As Button
 End Class

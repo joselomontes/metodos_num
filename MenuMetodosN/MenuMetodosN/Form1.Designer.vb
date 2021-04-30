@@ -31,7 +31,6 @@ Partial Class Form1
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Depa3 = New System.Windows.Forms.Button()
         Me.PanelDep2 = New System.Windows.Forms.Panel()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -44,6 +43,7 @@ Partial Class Form1
         Me.Depa1 = New System.Windows.Forms.Button()
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.PanelSideMenu.SuspendLayout()
         Me.PanelDepa3.SuspendLayout()
         Me.PanelDep2.SuspendLayout()
@@ -194,24 +194,6 @@ Partial Class Form1
         Me.PanelDep2.Size = New System.Drawing.Size(223, 153)
         Me.PanelDep2.TabIndex = 1
         '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.ForeColor = System.Drawing.Color.Navy
-        Me.Button6.Location = New System.Drawing.Point(0, 114)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button6.Size = New System.Drawing.Size(223, 38)
-        Me.Button6.TabIndex = 7
-        Me.Button6.Text = "Button6"
-        Me.Button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button6.UseVisualStyleBackColor = False
-        '
         'Button7
         '
         Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -226,7 +208,7 @@ Partial Class Form1
         Me.Button7.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button7.Size = New System.Drawing.Size(223, 38)
         Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Button7"
+        Me.Button7.Text = "Interpolación"
         Me.Button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button7.UseVisualStyleBackColor = False
         '
@@ -244,7 +226,7 @@ Partial Class Form1
         Me.Button8.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button8.Size = New System.Drawing.Size(223, 38)
         Me.Button8.TabIndex = 5
-        Me.Button8.Text = "Button8"
+        Me.Button8.Text = "Gauss"
         Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button8.UseVisualStyleBackColor = False
         '
@@ -262,7 +244,7 @@ Partial Class Form1
         Me.Button9.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button9.Size = New System.Drawing.Size(223, 38)
         Me.Button9.TabIndex = 4
-        Me.Button9.Text = "Button9"
+        Me.Button9.Text = "Jacobi"
         Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button9.UseVisualStyleBackColor = False
         '
@@ -407,9 +389,27 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button6.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Button6.FlatAppearance.BorderSize = 0
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.ForeColor = System.Drawing.Color.Navy
+        Me.Button6.Location = New System.Drawing.Point(0, 114)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
+        Me.Button6.Size = New System.Drawing.Size(223, 38)
+        Me.Button6.TabIndex = 7
+        Me.Button6.Text = "Button6"
+        Me.Button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button6.UseVisualStyleBackColor = False
+        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(1168, 717)
@@ -445,10 +445,10 @@ Partial Class Form1
     Friend WithEvents Button12 As Button
     Friend WithEvents Depa3 As Button
     Friend WithEvents PanelDep2 As Panel
-    Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Depa2 As Button
     Friend WithEvents PanelChildForm As Panel
+    Friend WithEvents Button6 As Button
 End Class

@@ -242,7 +242,7 @@ Partial Class Form1
         Me.Button9.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button9.Size = New System.Drawing.Size(223, 38)
         Me.Button9.TabIndex = 4
-        Me.Button9.Text = "Jacobi"
+        Me.Button9.Text = "Jacobiii"
         Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button9.UseVisualStyleBackColor = False
         '
@@ -389,7 +389,7 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(1168, 724)

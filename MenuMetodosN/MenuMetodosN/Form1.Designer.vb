@@ -22,11 +22,12 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PanelChildForm = New System.Windows.Forms.Panel()
         Me.PanelSideMenu = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PanelDepa3 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.inicio = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
@@ -55,10 +56,12 @@ Partial Class Form1
         '
         'PanelChildForm
         '
+        Me.PanelChildForm.BackgroundImage = CType(resources.GetObject("PanelChildForm.BackgroundImage"), System.Drawing.Image)
+        Me.PanelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PanelChildForm.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelChildForm.Location = New System.Drawing.Point(223, 0)
         Me.PanelChildForm.Name = "PanelChildForm"
-        Me.PanelChildForm.Size = New System.Drawing.Size(945, 724)
+        Me.PanelChildForm.Size = New System.Drawing.Size(1230, 802)
         Me.PanelChildForm.TabIndex = 1
         '
         'PanelSideMenu
@@ -78,7 +81,7 @@ Partial Class Form1
         Me.PanelSideMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelSideMenu.Location = New System.Drawing.Point(0, 0)
         Me.PanelSideMenu.Name = "PanelSideMenu"
-        Me.PanelSideMenu.Size = New System.Drawing.Size(223, 724)
+        Me.PanelSideMenu.Size = New System.Drawing.Size(223, 802)
         Me.PanelSideMenu.TabIndex = 0
         '
         'PictureBox2
@@ -88,40 +91,40 @@ Partial Class Form1
         Me.PictureBox2.Image = Global.MenuMetodosN.My.Resources.Resources.hamtaro
         Me.PictureBox2.Location = New System.Drawing.Point(0, 671)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(197, 92)
+        Me.PictureBox2.Size = New System.Drawing.Size(223, 92)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
         '
         'PanelDepa3
         '
-        Me.PanelDepa3.Controls.Add(Me.Button1)
+        Me.PanelDepa3.Controls.Add(Me.inicio)
         Me.PanelDepa3.Controls.Add(Me.Button10)
         Me.PanelDepa3.Controls.Add(Me.Button11)
         Me.PanelDepa3.Controls.Add(Me.Button12)
         Me.PanelDepa3.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelDepa3.Location = New System.Drawing.Point(0, 513)
         Me.PanelDepa3.Name = "PanelDepa3"
-        Me.PanelDepa3.Size = New System.Drawing.Size(197, 158)
+        Me.PanelDepa3.Size = New System.Drawing.Size(223, 158)
         Me.PanelDepa3.TabIndex = 1
         '
-        'Button1
+        'inicio
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.Color.Navy
-        Me.Button1.Location = New System.Drawing.Point(0, 114)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button1.Size = New System.Drawing.Size(197, 38)
-        Me.Button1.TabIndex = 11
-        Me.Button1.Text = "Button1"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.inicio.BackColor = System.Drawing.Color.Crimson
+        Me.inicio.Dock = System.Windows.Forms.DockStyle.Top
+        Me.inicio.FlatAppearance.BorderSize = 0
+        Me.inicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.inicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.inicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.inicio.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.inicio.ForeColor = System.Drawing.Color.AliceBlue
+        Me.inicio.Location = New System.Drawing.Point(0, 114)
+        Me.inicio.Name = "inicio"
+        Me.inicio.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.inicio.Size = New System.Drawing.Size(223, 42)
+        Me.inicio.TabIndex = 11
+        Me.inicio.Text = "INICIO"
+        Me.inicio.UseVisualStyleBackColor = False
         '
         'Button10
         '
@@ -135,7 +138,7 @@ Partial Class Form1
         Me.Button10.Location = New System.Drawing.Point(0, 76)
         Me.Button10.Name = "Button10"
         Me.Button10.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button10.Size = New System.Drawing.Size(197, 38)
+        Me.Button10.Size = New System.Drawing.Size(223, 38)
         Me.Button10.TabIndex = 10
         Me.Button10.Text = "Button10"
         Me.Button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -153,7 +156,7 @@ Partial Class Form1
         Me.Button11.Location = New System.Drawing.Point(0, 38)
         Me.Button11.Name = "Button11"
         Me.Button11.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button11.Size = New System.Drawing.Size(197, 38)
+        Me.Button11.Size = New System.Drawing.Size(223, 38)
         Me.Button11.TabIndex = 9
         Me.Button11.Text = "Button11"
         Me.Button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -171,7 +174,7 @@ Partial Class Form1
         Me.Button12.Location = New System.Drawing.Point(0, 0)
         Me.Button12.Name = "Button12"
         Me.Button12.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button12.Size = New System.Drawing.Size(197, 38)
+        Me.Button12.Size = New System.Drawing.Size(223, 38)
         Me.Button12.TabIndex = 8
         Me.Button12.Text = "Button12"
         Me.Button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -190,7 +193,7 @@ Partial Class Form1
         Me.Depa3.Location = New System.Drawing.Point(0, 471)
         Me.Depa3.Name = "Depa3"
         Me.Depa3.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.Depa3.Size = New System.Drawing.Size(197, 42)
+        Me.Depa3.Size = New System.Drawing.Size(223, 42)
         Me.Depa3.TabIndex = 3
         Me.Depa3.Text = "Departamental 3"
         Me.Depa3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -204,7 +207,7 @@ Partial Class Form1
         Me.PanelDep2.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelDep2.Location = New System.Drawing.Point(0, 357)
         Me.PanelDep2.Name = "PanelDep2"
-        Me.PanelDep2.Size = New System.Drawing.Size(197, 114)
+        Me.PanelDep2.Size = New System.Drawing.Size(223, 114)
         Me.PanelDep2.TabIndex = 1
         '
         'Button7
@@ -219,7 +222,7 @@ Partial Class Form1
         Me.Button7.Location = New System.Drawing.Point(0, 76)
         Me.Button7.Name = "Button7"
         Me.Button7.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button7.Size = New System.Drawing.Size(197, 38)
+        Me.Button7.Size = New System.Drawing.Size(223, 38)
         Me.Button7.TabIndex = 6
         Me.Button7.Text = "Interpolación"
         Me.Button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -237,7 +240,7 @@ Partial Class Form1
         Me.Button8.Location = New System.Drawing.Point(0, 38)
         Me.Button8.Name = "Button8"
         Me.Button8.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button8.Size = New System.Drawing.Size(197, 38)
+        Me.Button8.Size = New System.Drawing.Size(223, 38)
         Me.Button8.TabIndex = 5
         Me.Button8.Text = "Gauss"
         Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -255,7 +258,7 @@ Partial Class Form1
         Me.Button9.Location = New System.Drawing.Point(0, 0)
         Me.Button9.Name = "Button9"
         Me.Button9.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button9.Size = New System.Drawing.Size(197, 38)
+        Me.Button9.Size = New System.Drawing.Size(223, 38)
         Me.Button9.TabIndex = 4
         Me.Button9.Text = "Jacobi"
         Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -274,7 +277,7 @@ Partial Class Form1
         Me.Depa2.Location = New System.Drawing.Point(0, 315)
         Me.Depa2.Name = "Depa2"
         Me.Depa2.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.Depa2.Size = New System.Drawing.Size(197, 42)
+        Me.Depa2.Size = New System.Drawing.Size(223, 42)
         Me.Depa2.TabIndex = 2
         Me.Depa2.Text = "Departamental 2"
         Me.Depa2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -289,7 +292,7 @@ Partial Class Form1
         Me.PanelDepUno.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelDepUno.Location = New System.Drawing.Point(0, 162)
         Me.PanelDepUno.Name = "PanelDepUno"
-        Me.PanelDepUno.Size = New System.Drawing.Size(197, 153)
+        Me.PanelDepUno.Size = New System.Drawing.Size(223, 153)
         Me.PanelDepUno.TabIndex = 1
         '
         'Button5
@@ -304,7 +307,7 @@ Partial Class Form1
         Me.Button5.Location = New System.Drawing.Point(0, 114)
         Me.Button5.Name = "Button5"
         Me.Button5.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button5.Size = New System.Drawing.Size(197, 38)
+        Me.Button5.Size = New System.Drawing.Size(223, 38)
         Me.Button5.TabIndex = 3
         Me.Button5.Text = "Newton"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -322,7 +325,7 @@ Partial Class Form1
         Me.Button4.Location = New System.Drawing.Point(0, 76)
         Me.Button4.Name = "Button4"
         Me.Button4.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button4.Size = New System.Drawing.Size(197, 38)
+        Me.Button4.Size = New System.Drawing.Size(223, 38)
         Me.Button4.TabIndex = 2
         Me.Button4.Text = "Bisección"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -340,7 +343,7 @@ Partial Class Form1
         Me.Button3.Location = New System.Drawing.Point(0, 38)
         Me.Button3.Name = "Button3"
         Me.Button3.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button3.Size = New System.Drawing.Size(197, 38)
+        Me.Button3.Size = New System.Drawing.Size(223, 38)
         Me.Button3.TabIndex = 1
         Me.Button3.Text = "Impares"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -358,7 +361,7 @@ Partial Class Form1
         Me.Button2.Location = New System.Drawing.Point(0, 0)
         Me.Button2.Name = "Button2"
         Me.Button2.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button2.Size = New System.Drawing.Size(197, 38)
+        Me.Button2.Size = New System.Drawing.Size(223, 38)
         Me.Button2.TabIndex = 0
         Me.Button2.Text = "Raices"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -377,7 +380,7 @@ Partial Class Form1
         Me.Depa1.Location = New System.Drawing.Point(0, 120)
         Me.Depa1.Name = "Depa1"
         Me.Depa1.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.Depa1.Size = New System.Drawing.Size(197, 42)
+        Me.Depa1.Size = New System.Drawing.Size(223, 42)
         Me.Depa1.TabIndex = 1
         Me.Depa1.Text = "Departamental 1"
         Me.Depa1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -389,7 +392,7 @@ Partial Class Form1
         Me.PanelLogo.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelLogo.Location = New System.Drawing.Point(0, 0)
         Me.PanelLogo.Name = "PanelLogo"
-        Me.PanelLogo.Size = New System.Drawing.Size(197, 120)
+        Me.PanelLogo.Size = New System.Drawing.Size(223, 120)
         Me.PanelLogo.TabIndex = 1
         '
         'PictureBox1
@@ -407,7 +410,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(1168, 724)
+        Me.ClientSize = New System.Drawing.Size(1453, 802)
         Me.Controls.Add(Me.PanelChildForm)
         Me.Controls.Add(Me.PanelSideMenu)
         Me.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -435,7 +438,6 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PanelDepa3 As Panel
-    Friend WithEvents Button1 As Button
     Friend WithEvents Button10 As Button
     Friend WithEvents Button11 As Button
     Friend WithEvents Button12 As Button
@@ -447,4 +449,5 @@ Partial Class Form1
     Friend WithEvents Depa2 As Button
     Friend WithEvents PanelChildForm As Panel
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents inicio As Button
 End Class

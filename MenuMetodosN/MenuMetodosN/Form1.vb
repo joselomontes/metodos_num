@@ -85,7 +85,7 @@
         hideSubMenu()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         hideSubMenu()
     End Sub
 
@@ -103,6 +103,15 @@
     End Sub
 
     Private Sub PanelLogo_Paint(sender As Object, e As PaintEventArgs) Handles PanelLogo.Paint
+
+    End Sub
+
+    Private Sub inicio_Click_1(sender As Object, e As EventArgs) Handles inicio.Click
+        openChildForm(New Form1())
+        hideSubMenu()
+    End Sub
+
+    Private Sub PanelChildForm_Paint(sender As Object, e As PaintEventArgs) Handles PanelChildForm.Paint
 
     End Sub
 End Class

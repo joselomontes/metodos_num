@@ -257,7 +257,7 @@ Partial Class Form1
         Me.Button9.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button9.Size = New System.Drawing.Size(197, 38)
         Me.Button9.TabIndex = 4
-        Me.Button9.Text = "Jacobii"
+        Me.Button9.Text = "Jacobi"
         Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button9.UseVisualStyleBackColor = False
         '

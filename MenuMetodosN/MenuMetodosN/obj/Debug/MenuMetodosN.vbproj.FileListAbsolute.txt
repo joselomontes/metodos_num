@@ -42,7 +42,6 @@ C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARC
 C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.xml
 C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.pdb
 C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form2_2.resources
-C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Gráfica.resources
 C:\Users\josso\Desktop\archive2\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.exe.config
 C:\Users\josso\Desktop\archive2\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.exe
 C:\Users\josso\Desktop\archive2\MenuMetodosN\MenuMetodosN\bin\Debug\MenuMetodosN.pdb
@@ -63,3 +62,6 @@ C:\Users\josso\Desktop\archive2\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN
 C:\Users\josso\Desktop\archive2\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.exe
 C:\Users\josso\Desktop\archive2\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.xml
 C:\Users\josso\Desktop\archive2\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.pdb
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form2_3.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form5.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form6.resources

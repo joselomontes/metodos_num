@@ -22,7 +22,6 @@ Partial Class Form5
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Resultado = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -40,14 +39,14 @@ Partial Class Form5
         Me.Ti = New System.Windows.Forms.TextBox()
         Me.Lc = New System.Windows.Forms.Label()
         Me.Li = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Salida, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(665, 167)
+        Me.PictureBox1.Location = New System.Drawing.Point(449, 97)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(251, 115)
@@ -56,68 +55,72 @@ Partial Class Form5
         '
         'Resultado
         '
-        Me.Resultado.Location = New System.Drawing.Point(518, 539)
+        Me.Resultado.Location = New System.Drawing.Point(384, 467)
         Me.Resultado.Margin = New System.Windows.Forms.Padding(2)
         Me.Resultado.Name = "Resultado"
-        Me.Resultado.Size = New System.Drawing.Size(145, 20)
+        Me.Resultado.Size = New System.Drawing.Size(145, 26)
         Me.Resultado.TabIndex = 33
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(400, 543)
+        Me.Label3.ForeColor = System.Drawing.Color.Gold
+        Me.Label3.Location = New System.Drawing.Point(184, 473)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(140, 13)
+        Me.Label3.Size = New System.Drawing.Size(208, 20)
         Me.Label3.TabIndex = 32
         Me.Label3.Text = "La raíz aproximada es: "
         '
         'Tfd
         '
-        Me.Tfd.Location = New System.Drawing.Point(487, 252)
+        Me.Tfd.Location = New System.Drawing.Point(271, 182)
         Me.Tfd.Margin = New System.Windows.Forms.Padding(2)
         Me.Tfd.Name = "Tfd"
-        Me.Tfd.Size = New System.Drawing.Size(145, 20)
+        Me.Tfd.Size = New System.Drawing.Size(145, 26)
         Me.Tfd.TabIndex = 31
         '
         'Tf
         '
-        Me.Tf.Location = New System.Drawing.Point(487, 206)
+        Me.Tf.Location = New System.Drawing.Point(271, 136)
         Me.Tf.Margin = New System.Windows.Forms.Padding(2)
         Me.Tf.Name = "Tf"
-        Me.Tf.Size = New System.Drawing.Size(145, 20)
+        Me.Tf.Size = New System.Drawing.Size(145, 26)
         Me.Tf.TabIndex = 30
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(353, 256)
+        Me.Label1.ForeColor = System.Drawing.Color.Gold
+        Me.Label1.Location = New System.Drawing.Point(33, 186)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(156, 13)
+        Me.Label1.Size = New System.Drawing.Size(228, 20)
         Me.Label1.TabIndex = 29
         Me.Label1.Text = "Dame derivada de función"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(400, 210)
+        Me.Label2.ForeColor = System.Drawing.Color.Gold
+        Me.Label2.Location = New System.Drawing.Point(80, 140)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(85, 13)
+        Me.Label2.Size = New System.Drawing.Size(125, 20)
         Me.Label2.TabIndex = 28
         Me.Label2.Text = "Dame función"
         '
         'Salida
         '
+        Me.Salida.BackgroundColor = System.Drawing.Color.Khaki
         Me.Salida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.Salida.Location = New System.Drawing.Point(300, 317)
+        Me.Salida.Location = New System.Drawing.Point(84, 247)
         Me.Salida.Margin = New System.Windows.Forms.Padding(2)
         Me.Salida.Name = "Salida"
         Me.Salida.RowHeadersWidth = 62
         Me.Salida.RowTemplate.Height = 28
-        Me.Salida.Size = New System.Drawing.Size(567, 206)
+        Me.Salida.Size = New System.Drawing.Size(472, 206)
         Me.Salida.TabIndex = 27
         '
         'Column1
@@ -143,67 +146,83 @@ Partial Class Form5
         '
         'Salir
         '
-        Me.Salir.Location = New System.Drawing.Point(942, 224)
+        Me.Salir.BackColor = System.Drawing.Color.Gold
+        Me.Salir.Location = New System.Drawing.Point(726, 154)
         Me.Salir.Margin = New System.Windows.Forms.Padding(2)
         Me.Salir.Name = "Salir"
-        Me.Salir.Size = New System.Drawing.Size(73, 19)
+        Me.Salir.Size = New System.Drawing.Size(73, 28)
         Me.Salir.TabIndex = 26
         Me.Salir.Text = "&Salir"
-        Me.Salir.UseVisualStyleBackColor = True
+        Me.Salir.UseVisualStyleBackColor = False
         '
         'Calcular
         '
-        Me.Calcular.Location = New System.Drawing.Point(942, 167)
+        Me.Calcular.BackColor = System.Drawing.Color.Gold
+        Me.Calcular.Location = New System.Drawing.Point(726, 97)
         Me.Calcular.Margin = New System.Windows.Forms.Padding(2)
         Me.Calcular.Name = "Calcular"
-        Me.Calcular.Size = New System.Drawing.Size(73, 21)
+        Me.Calcular.Size = New System.Drawing.Size(88, 35)
         Me.Calcular.TabIndex = 25
         Me.Calcular.Text = "&Calcular"
-        Me.Calcular.UseVisualStyleBackColor = True
+        Me.Calcular.UseVisualStyleBackColor = False
         '
         'Tc
         '
-        Me.Tc.Location = New System.Drawing.Point(487, 159)
+        Me.Tc.Location = New System.Drawing.Point(271, 89)
         Me.Tc.Margin = New System.Windows.Forms.Padding(2)
         Me.Tc.Name = "Tc"
-        Me.Tc.Size = New System.Drawing.Size(145, 20)
+        Me.Tc.Size = New System.Drawing.Size(145, 26)
         Me.Tc.TabIndex = 24
         '
         'Ti
         '
-        Me.Ti.Location = New System.Drawing.Point(487, 112)
+        Me.Ti.Location = New System.Drawing.Point(271, 42)
         Me.Ti.Margin = New System.Windows.Forms.Padding(2)
         Me.Ti.Name = "Ti"
-        Me.Ti.Size = New System.Drawing.Size(145, 20)
+        Me.Ti.Size = New System.Drawing.Size(145, 26)
         Me.Ti.TabIndex = 23
         '
         'Lc
         '
         Me.Lc.AutoSize = True
-        Me.Lc.Location = New System.Drawing.Point(400, 159)
+        Me.Lc.ForeColor = System.Drawing.Color.Gold
+        Me.Lc.Location = New System.Drawing.Point(80, 89)
         Me.Lc.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Lc.Name = "Lc"
-        Me.Lc.Size = New System.Drawing.Size(74, 13)
+        Me.Lc.Size = New System.Drawing.Size(112, 20)
         Me.Lc.TabIndex = 22
         Me.Lc.Text = "Dame cifras"
         '
         'Li
         '
         Me.Li.AutoSize = True
-        Me.Li.Location = New System.Drawing.Point(400, 116)
+        Me.Li.ForeColor = System.Drawing.Color.Gold
+        Me.Li.Location = New System.Drawing.Point(80, 46)
         Me.Li.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Li.Name = "Li"
-        Me.Li.Size = New System.Drawing.Size(73, 13)
+        Me.Li.Size = New System.Drawing.Size(109, 20)
         Me.Li.TabIndex = 21
         Me.Li.Text = "Dame inicio"
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.ForeColor = System.Drawing.Color.Gold
+        Me.Label11.Location = New System.Drawing.Point(460, 27)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(310, 20)
+        Me.Label11.TabIndex = 95
+        Me.Label11.Text = "AGUILÁCTICAS NEWTON RAPSON"
+        '
         'Form5
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Gainsboro
+        Me.BackColor = System.Drawing.Color.Black
+        Me.BackgroundImage = Global.MenuMetodosN.My.Resources.Resources.america2
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(1315, 670)
+        Me.ClientSize = New System.Drawing.Size(913, 608)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Resultado)
         Me.Controls.Add(Me.Label3)
@@ -236,13 +255,14 @@ Partial Class Form5
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Salida As DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Salir As Button
     Friend WithEvents Calcular As Button
     Friend WithEvents Tc As TextBox
     Friend WithEvents Ti As TextBox
     Friend WithEvents Lc As Label
     Friend WithEvents Li As Label
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Label11 As Label
 End Class

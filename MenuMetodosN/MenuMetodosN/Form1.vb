@@ -66,10 +66,13 @@
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
-        openChildForm(New Gráfica())
+        openChildForm(New Form2_3())
         hideSubMenu()
     End Sub
-
+    Private Sub MínimosCuad_Click(sender As Object, e As EventArgs) Handles MínimosCuad.Click
+        openChildForm(New Form6())
+        hideSubMenu()
+    End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
 
@@ -105,4 +108,5 @@
     Private Sub PanelLogo_Paint(sender As Object, e As PaintEventArgs) Handles PanelLogo.Paint
 
     End Sub
+
 End Class

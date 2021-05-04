@@ -45,6 +45,7 @@ Partial Class Form4
         Me.la = New System.Windows.Forms.Label()
         Me.lf = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.Salida, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -52,31 +53,30 @@ Partial Class Form4
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(230, 540)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.ForeColor = System.Drawing.Color.Gold
+        Me.Label1.Location = New System.Drawing.Point(231, 713)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(114, 13)
+        Me.Label1.Size = New System.Drawing.Size(167, 20)
         Me.Label1.TabIndex = 27
         Me.Label1.Text = "La raíz aproximada es:"
         '
         'Respuesta
         '
-        Me.Respuesta.Location = New System.Drawing.Point(352, 536)
-        Me.Respuesta.Margin = New System.Windows.Forms.Padding(2)
+        Me.Respuesta.Location = New System.Drawing.Point(414, 707)
         Me.Respuesta.Name = "Respuesta"
-        Me.Respuesta.Size = New System.Drawing.Size(95, 20)
+        Me.Respuesta.Size = New System.Drawing.Size(140, 26)
         Me.Respuesta.TabIndex = 26
         '
         'Salida
         '
+        Me.Salida.BackgroundColor = System.Drawing.Color.Khaki
         Me.Salida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column8})
-        Me.Salida.Location = New System.Drawing.Point(135, 276)
-        Me.Salida.Margin = New System.Windows.Forms.Padding(2)
+        Me.Salida.Location = New System.Drawing.Point(41, 327)
         Me.Salida.Name = "Salida"
         Me.Salida.RowHeadersWidth = 62
         Me.Salida.RowTemplate.Height = 28
-        Me.Salida.Size = New System.Drawing.Size(809, 242)
+        Me.Salida.Size = New System.Drawing.Size(898, 330)
         Me.Salida.TabIndex = 24
         '
         'Column1
@@ -91,157 +91,170 @@ Partial Class Form4
         Me.Column2.HeaderText = "a"
         Me.Column2.MinimumWidth = 8
         Me.Column2.Name = "Column2"
-        Me.Column2.Width = 150
+        Me.Column2.Width = 90
         '
         'Column3
         '
         Me.Column3.HeaderText = "xi"
         Me.Column3.MinimumWidth = 8
         Me.Column3.Name = "Column3"
-        Me.Column3.Width = 150
+        Me.Column3.Width = 90
         '
         'Column4
         '
         Me.Column4.HeaderText = "b"
         Me.Column4.MinimumWidth = 8
         Me.Column4.Name = "Column4"
-        Me.Column4.Width = 150
+        Me.Column4.Width = 90
         '
         'Column5
         '
         Me.Column5.HeaderText = "f(a)"
         Me.Column5.MinimumWidth = 8
         Me.Column5.Name = "Column5"
-        Me.Column5.Width = 150
+        Me.Column5.Width = 90
         '
         'Column6
         '
         Me.Column6.HeaderText = "f(xi)"
         Me.Column6.MinimumWidth = 8
         Me.Column6.Name = "Column6"
-        Me.Column6.Width = 150
+        Me.Column6.Width = 90
         '
         'Column7
         '
         Me.Column7.HeaderText = "f(b)"
         Me.Column7.MinimumWidth = 8
         Me.Column7.Name = "Column7"
-        Me.Column7.Width = 150
+        Me.Column7.Width = 90
         '
         'Column8
         '
         Me.Column8.HeaderText = "error"
         Me.Column8.MinimumWidth = 8
         Me.Column8.Name = "Column8"
-        Me.Column8.Width = 150
+        Me.Column8.Width = 90
         '
         'Salir
         '
-        Me.Salir.Location = New System.Drawing.Point(760, 210)
-        Me.Salir.Margin = New System.Windows.Forms.Padding(2)
+        Me.Salir.BackColor = System.Drawing.Color.Gold
+        Me.Salir.Location = New System.Drawing.Point(847, 204)
         Me.Salir.Name = "Salir"
-        Me.Salir.Size = New System.Drawing.Size(77, 19)
+        Me.Salir.Size = New System.Drawing.Size(116, 29)
         Me.Salir.TabIndex = 23
         Me.Salir.Text = "&Salir"
-        Me.Salir.UseVisualStyleBackColor = True
+        Me.Salir.UseVisualStyleBackColor = False
         '
         'Calcular
         '
-        Me.Calcular.Location = New System.Drawing.Point(760, 133)
-        Me.Calcular.Margin = New System.Windows.Forms.Padding(2)
+        Me.Calcular.BackColor = System.Drawing.Color.Gold
+        Me.Calcular.Location = New System.Drawing.Point(847, 86)
         Me.Calcular.Name = "Calcular"
-        Me.Calcular.Size = New System.Drawing.Size(77, 22)
+        Me.Calcular.Size = New System.Drawing.Size(116, 34)
         Me.Calcular.TabIndex = 22
         Me.Calcular.Text = "&Calcular"
-        Me.Calcular.UseVisualStyleBackColor = True
+        Me.Calcular.UseVisualStyleBackColor = False
         '
         'tc
         '
-        Me.tc.Location = New System.Drawing.Point(336, 239)
-        Me.tc.Margin = New System.Windows.Forms.Padding(2)
+        Me.tc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.tc.Location = New System.Drawing.Point(211, 249)
         Me.tc.Name = "tc"
-        Me.tc.Size = New System.Drawing.Size(171, 20)
+        Me.tc.Size = New System.Drawing.Size(254, 26)
         Me.tc.TabIndex = 21
         '
         'tb
         '
-        Me.tb.Location = New System.Drawing.Point(336, 189)
-        Me.tb.Margin = New System.Windows.Forms.Padding(2)
+        Me.tb.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.tb.Location = New System.Drawing.Point(211, 172)
         Me.tb.Name = "tb"
-        Me.tb.Size = New System.Drawing.Size(171, 20)
+        Me.tb.Size = New System.Drawing.Size(254, 26)
         Me.tb.TabIndex = 20
         '
         'ta
         '
-        Me.ta.Location = New System.Drawing.Point(336, 138)
-        Me.ta.Margin = New System.Windows.Forms.Padding(2)
+        Me.ta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.ta.Location = New System.Drawing.Point(211, 93)
         Me.ta.Name = "ta"
-        Me.ta.Size = New System.Drawing.Size(171, 20)
+        Me.ta.Size = New System.Drawing.Size(254, 26)
         Me.ta.TabIndex = 19
         '
         'tf
         '
-        Me.tf.Location = New System.Drawing.Point(336, 97)
-        Me.tf.Margin = New System.Windows.Forms.Padding(2)
+        Me.tf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.tf.Location = New System.Drawing.Point(211, 30)
         Me.tf.Name = "tf"
-        Me.tf.Size = New System.Drawing.Size(171, 20)
+        Me.tf.Size = New System.Drawing.Size(254, 26)
         Me.tf.TabIndex = 18
         '
         'lc
         '
         Me.lc.AutoSize = True
-        Me.lc.Location = New System.Drawing.Point(220, 243)
-        Me.lc.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lc.ForeColor = System.Drawing.Color.Gold
+        Me.lc.Location = New System.Drawing.Point(95, 255)
         Me.lc.Name = "lc"
-        Me.lc.Size = New System.Drawing.Size(63, 13)
+        Me.lc.Size = New System.Drawing.Size(94, 20)
         Me.lc.TabIndex = 17
         Me.lc.Text = "Dame cifras"
         '
         'lb
         '
         Me.lb.AutoSize = True
-        Me.lb.Location = New System.Drawing.Point(220, 193)
-        Me.lb.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lb.ForeColor = System.Drawing.Color.Gold
+        Me.lb.Location = New System.Drawing.Point(95, 178)
         Me.lb.Name = "lb"
-        Me.lb.Size = New System.Drawing.Size(44, 13)
+        Me.lb.Size = New System.Drawing.Size(65, 20)
         Me.lb.TabIndex = 16
         Me.lb.Text = "Dame b"
         '
         'la
         '
         Me.la.AutoSize = True
-        Me.la.Location = New System.Drawing.Point(220, 142)
-        Me.la.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.la.ForeColor = System.Drawing.Color.Gold
+        Me.la.Location = New System.Drawing.Point(95, 99)
         Me.la.Name = "la"
-        Me.la.Size = New System.Drawing.Size(44, 13)
+        Me.la.Size = New System.Drawing.Size(65, 20)
         Me.la.TabIndex = 15
         Me.la.Text = "Dame a"
         '
         'lf
         '
         Me.lf.AutoSize = True
-        Me.lf.Location = New System.Drawing.Point(220, 101)
-        Me.lf.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lf.ForeColor = System.Drawing.Color.Gold
+        Me.lf.Location = New System.Drawing.Point(95, 36)
         Me.lf.Name = "lf"
-        Me.lf.Size = New System.Drawing.Size(73, 13)
+        Me.lf.Size = New System.Drawing.Size(108, 20)
         Me.lf.TabIndex = 14
         Me.lf.Text = "Dame función"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(540, 96)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox1.Location = New System.Drawing.Point(517, 29)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(183, 97)
+        Me.PictureBox1.Size = New System.Drawing.Size(274, 149)
         Me.PictureBox1.TabIndex = 25
         Me.PictureBox1.TabStop = False
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.ForeColor = System.Drawing.Color.Gold
+        Me.Label11.Location = New System.Drawing.Point(810, 19)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(220, 20)
+        Me.Label11.TabIndex = 95
+        Me.Label11.Text = "AGUILÁCTICAS BISECCIÓN"
+        '
         'Form4
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 652)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BackgroundImage = Global.MenuMetodosN.My.Resources.Resources.america2
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.ClientSize = New System.Drawing.Size(1200, 837)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Respuesta)
         Me.Controls.Add(Me.PictureBox1)
@@ -256,6 +269,7 @@ Partial Class Form4
         Me.Controls.Add(Me.lb)
         Me.Controls.Add(Me.la)
         Me.Controls.Add(Me.lf)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Form4"
         Me.Text = "Form4"
         CType(Me.Salida, System.ComponentModel.ISupportInitialize).EndInit()
@@ -269,14 +283,6 @@ Partial Class Form4
     Friend WithEvents Respuesta As TextBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Salida As DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As DataGridViewTextBoxColumn
-    Friend WithEvents Column7 As DataGridViewTextBoxColumn
-    Friend WithEvents Column8 As DataGridViewTextBoxColumn
     Friend WithEvents Salir As Button
     Friend WithEvents Calcular As Button
     Friend WithEvents tc As TextBox
@@ -287,4 +293,13 @@ Partial Class Form4
     Friend WithEvents lb As Label
     Friend WithEvents la As Label
     Friend WithEvents lf As Label
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents Column7 As DataGridViewTextBoxColumn
+    Friend WithEvents Column8 As DataGridViewTextBoxColumn
+    Friend WithEvents Label11 As Label
 End Class

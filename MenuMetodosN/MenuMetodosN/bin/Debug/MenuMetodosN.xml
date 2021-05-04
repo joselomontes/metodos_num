@@ -42,12 +42,22 @@ MenuMetodosN
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:MenuMetodosN.My.Resources.Resources.america2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:MenuMetodosN.My.Resources.Resources.hamtaro">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:MenuMetodosN.My.Resources.Resources.hamtaro1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MenuMetodosN.My.Resources.Resources.New_Project">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

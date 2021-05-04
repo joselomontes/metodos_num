@@ -1,6 +1,72 @@
-﻿Public Class Gráfica
+﻿Public Class Form2_3
     Dim i, c, redon, ib, n As Integer
     Dim vx, vy, x(), y() As Single
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
+    End Sub
+
+    Private Sub tvx_TextChanged(sender As Object, e As EventArgs) Handles tvx.TextChanged
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub Gráfica_Click(sender As Object, e As EventArgs) Handles Gráfica.Click
+
+    End Sub
+
+    Private Sub tn_TextChanged(sender As Object, e As EventArgs) Handles tn.TextChanged
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
+
+    End Sub
+
+    Private Sub Salida_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles Salida.CellContentClick
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+    End Sub
+
+    Private Sub tc_TextChanged(sender As Object, e As EventArgs) Handles tc.TextChanged
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+
+    End Sub
+
+    Dim g As Graphics
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        g = CreateGraphics()
+        For i = 0 To n - 1
+            Gráfica.Series(0).Points.AddXY(Math.Round(x(i), 2), Math.Round(y(i), 2))
+        Next
+        Gráfica.Series(1).Points.AddXY(Math.Round(vx, 2), Math.Round(vy, 2))
+    End Sub
 
     Private Sub Salir_Click(sender As Object, e As EventArgs) Handles Salir.Click
         End

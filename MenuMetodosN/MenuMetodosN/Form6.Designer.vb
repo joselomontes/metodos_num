@@ -52,13 +52,14 @@ Partial Class Form6
         Me.Button1 = New System.Windows.Forms.Button()
         Me.tc = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.Grafica, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Salida, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(168, 728)
+        Me.TextBox3.Location = New System.Drawing.Point(185, 823)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(148, 26)
@@ -68,7 +69,7 @@ Partial Class Form6
         '
         Me.Label8.AutoSize = True
         Me.Label8.ForeColor = System.Drawing.Color.Gold
-        Me.Label8.Location = New System.Drawing.Point(119, 732)
+        Me.Label8.Location = New System.Drawing.Point(136, 827)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(38, 20)
@@ -79,7 +80,7 @@ Partial Class Form6
         '
         Me.Label7.AutoSize = True
         Me.Label7.ForeColor = System.Drawing.Color.Gold
-        Me.Label7.Location = New System.Drawing.Point(327, 663)
+        Me.Label7.Location = New System.Drawing.Point(344, 758)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(199, 20)
@@ -90,16 +91,16 @@ Partial Class Form6
         '
         Me.Label6.AutoSize = True
         Me.Label6.ForeColor = System.Drawing.Color.Gold
-        Me.Label6.Location = New System.Drawing.Point(33, 663)
+        Me.Label6.Location = New System.Drawing.Point(50, 758)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(125, 20)
+        Me.Label6.Size = New System.Drawing.Size(134, 20)
         Me.Label6.TabIndex = 39
-        Me.Label6.Text = "La pediente (b)="
+        Me.Label6.Text = "La pendiente (b)="
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(537, 658)
+        Me.TextBox2.Location = New System.Drawing.Point(554, 753)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(148, 26)
@@ -107,7 +108,7 @@ Partial Class Form6
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(168, 658)
+        Me.TextBox1.Location = New System.Drawing.Point(185, 753)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(148, 26)
@@ -116,7 +117,7 @@ Partial Class Form6
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.Gold
-        Me.Button5.Location = New System.Drawing.Point(473, 58)
+        Me.Button5.Location = New System.Drawing.Point(490, 149)
         Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(112, 35)
@@ -128,7 +129,7 @@ Partial Class Form6
         '
         Me.Label5.AutoSize = True
         Me.Label5.ForeColor = System.Drawing.Color.Gold
-        Me.Label5.Location = New System.Drawing.Point(53, 114)
+        Me.Label5.Location = New System.Drawing.Point(70, 209)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(150, 20)
@@ -141,7 +142,7 @@ Partial Class Form6
         Me.Grafica.ChartAreas.Add(ChartArea1)
         Legend1.Name = "Legend1"
         Me.Grafica.Legends.Add(Legend1)
-        Me.Grafica.Location = New System.Drawing.Point(618, 90)
+        Me.Grafica.Location = New System.Drawing.Point(635, 185)
         Me.Grafica.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Grafica.Name = "Grafica"
         Series1.ChartArea = "ChartArea1"
@@ -169,7 +170,7 @@ Partial Class Form6
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.Gold
-        Me.Button4.Location = New System.Drawing.Point(473, 194)
+        Me.Button4.Location = New System.Drawing.Point(490, 289)
         Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(112, 35)
@@ -180,7 +181,7 @@ Partial Class Form6
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Gold
-        Me.Button2.Location = New System.Drawing.Point(473, 110)
+        Me.Button2.Location = New System.Drawing.Point(490, 205)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(112, 35)
@@ -191,7 +192,7 @@ Partial Class Form6
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(275, 198)
+        Me.TextBox4.Location = New System.Drawing.Point(292, 293)
         Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(148, 26)
@@ -199,7 +200,7 @@ Partial Class Form6
         '
         'tvx
         '
-        Me.tvx.Location = New System.Drawing.Point(275, 114)
+        Me.tvx.Location = New System.Drawing.Point(292, 209)
         Me.tvx.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tvx.Name = "tvx"
         Me.tvx.Size = New System.Drawing.Size(148, 26)
@@ -207,7 +208,7 @@ Partial Class Form6
         '
         'tn
         '
-        Me.tn.Location = New System.Drawing.Point(275, 69)
+        Me.tn.Location = New System.Drawing.Point(292, 160)
         Me.tn.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tn.Name = "tn"
         Me.tn.Size = New System.Drawing.Size(148, 26)
@@ -217,7 +218,7 @@ Partial Class Form6
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.Color.Gold
-        Me.Label4.Location = New System.Drawing.Point(164, 203)
+        Me.Label4.Location = New System.Drawing.Point(181, 298)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(101, 20)
@@ -228,7 +229,7 @@ Partial Class Form6
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.Gold
-        Me.Label3.Location = New System.Drawing.Point(53, 34)
+        Me.Label3.Location = New System.Drawing.Point(70, 116)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(211, 20)
@@ -249,7 +250,7 @@ Partial Class Form6
         Me.Salida.BackgroundColor = System.Drawing.Color.Khaki
         Me.Salida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.Salida.Location = New System.Drawing.Point(71, 291)
+        Me.Salida.Location = New System.Drawing.Point(88, 386)
         Me.Salida.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Salida.Name = "Salida"
         Me.Salida.RowHeadersWidth = 62
@@ -280,7 +281,7 @@ Partial Class Form6
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Gold
-        Me.Button1.Location = New System.Drawing.Point(473, 14)
+        Me.Button1.Location = New System.Drawing.Point(490, 96)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(153, 35)
@@ -291,7 +292,7 @@ Partial Class Form6
         '
         'tc
         '
-        Me.tc.Location = New System.Drawing.Point(275, 29)
+        Me.tc.Location = New System.Drawing.Point(292, 111)
         Me.tc.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tc.Name = "tc"
         Me.tc.Size = New System.Drawing.Size(148, 26)
@@ -301,12 +302,22 @@ Partial Class Form6
         '
         Me.Label1.AutoSize = True
         Me.Label1.ForeColor = System.Drawing.Color.Gold
-        Me.Label1.Location = New System.Drawing.Point(53, 74)
+        Me.Label1.Location = New System.Drawing.Point(70, 165)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(188, 20)
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "Dame numero de parejas"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.ForeColor = System.Drawing.Color.Gold
+        Me.Label11.Location = New System.Drawing.Point(676, 38)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(310, 20)
+        Me.Label11.TabIndex = 156
+        Me.Label11.Text = "AGUILÁCTICAS MÍNIMOS CUADRADOS"
         '
         'Form6
         '
@@ -316,6 +327,7 @@ Partial Class Form6
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1630, 907)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -370,4 +382,5 @@ Partial Class Form6
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Label11 As Label
 End Class

@@ -16,7 +16,10 @@
         TextBox2.Clear()
         TextBox3.Clear()
         Salida.Rows.Clear()
-        Grafica.Series.Clear()
+        'Grafica.Series.Clear()
+        Grafica.Series(0).Points.Clear()
+        Grafica.Series(1).Points.Clear()
+        Grafica.Series(2).Points.Clear()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

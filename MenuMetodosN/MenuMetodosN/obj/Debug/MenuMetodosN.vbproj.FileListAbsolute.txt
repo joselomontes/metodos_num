@@ -65,3 +65,4 @@ C:\Users\josso\Desktop\archive2\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN
 C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form2_3.resources
 C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form5.resources
 C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form6.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.FormInit.resources

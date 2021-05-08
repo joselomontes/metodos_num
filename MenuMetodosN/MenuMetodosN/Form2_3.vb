@@ -43,7 +43,15 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
+        tc.Clear()
+        Salida.Rows.Clear()
+        tn.Clear()
+        tvx.Clear()
+        TextBox1.Clear()
+        TextBox2.Clear()
+        'Gráfica.Series.Clear()
+        Gráfica.Series(0).Points.Clear()
+        Gráfica.Series(1).Points.Clear()
     End Sub
 
     Private Sub tc_TextChanged(sender As Object, e As EventArgs) Handles tc.TextChanged
@@ -100,9 +108,13 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        vy = ((vx - x(ib + 1)) * (vx - x(ib + 2)) / (x(ib) - x(ib + 2)) * (x(ib) - x(ib + 1))) * y(ib) +
-            ((vx - x(ib)) * (vx - x(ib + 2))) / ((x(ib + 1) - x(ib)) * (x(ib + 1)) - (x(ib + 2)) * y(ib + 1)) +
-            ((vx - x(ib)) * (vx - x(ib + 1))) / ((x(ib + 2) - x(ib)) * (x(ib + 2) - x(ib + 1))) * y(ib + 2)
+        'vy = ((vx - x(ib + 1)) * (vx - x(ib + 2)) / (x(ib) - x(ib + 2)) * (x(ib) - x(ib + 1))) * y(ib) +
+        ' ((vx - x(ib)) * (vx - x(ib + 2))) / ((x(ib + 1) - x(ib)) * (x(ib + 1)) - (x(ib + 2)) * y(ib + 1)) +
+        ' ((vx - x(ib)) * (vx - x(ib + 1))) / ((x(ib + 2) - x(ib)) * (x(ib + 2) - x(ib + 1))) * y(ib + 2)
+
+        vy = ((vx - x(ib + 1)) * (vx - x(ib + 2)) / ((x(ib) - x(ib + 1)) * (x(ib) - x(ib + 2)))) * y(ib) +
+             ((vx - x(ib)) * (vx - x(ib + 2)) / ((x(ib + 1) - x(ib)) * (x(ib + 1) - x(ib + 2)))) * y(ib + 1) +
+             ((vx - x(ib)) * (vx - x(ib + 1)) / ((x(ib + 2) - x(ib)) * (x(ib + 2) - x(ib + 1)))) * y(ib + 2)
         TextBox2.Text = "f(" & vx & ") =" & vy
     End Sub
 End Class

@@ -71,17 +71,17 @@
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         tc.Clear()
-        Salida1.Rows.Clear()
-        Salida2.Rows.Clear()
         tn.Clear()
         tvx.Clear()
-        tc.Clear()
+        TextBox4.Clear()
         TextBox1.Clear()
         TextBox2.Clear()
         TextBox3.Clear()
-        TextBox4.Clear()
-        'Gráfica.Series.Clear()
+        Salida1.Rows.Clear()
+        Salida1.Rows.Clear()
+        'Grafica.Series.Clear()
         Gráfica.Series(0).Points.Clear()
         Gráfica.Series(1).Points.Clear()
+        Gráfica.Series(2).Points.Clear()
     End Sub
 End Class

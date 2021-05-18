@@ -69,7 +69,7 @@ Partial Class Form3_1
         '
         Me.Button6.BackColor = System.Drawing.Color.Gold
         Me.Button6.Cursor = System.Windows.Forms.Cursors.SizeAll
-        Me.Button6.Location = New System.Drawing.Point(576, 64)
+        Me.Button6.Location = New System.Drawing.Point(623, 78)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(175, 35)
         Me.Button6.TabIndex = 215
@@ -80,7 +80,7 @@ Partial Class Form3_1
         '
         Me.Label7.AutoSize = True
         Me.Label7.ForeColor = System.Drawing.Color.Gold
-        Me.Label7.Location = New System.Drawing.Point(311, 358)
+        Me.Label7.Location = New System.Drawing.Point(358, 372)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(30, 20)
         Me.Label7.TabIndex = 214
@@ -88,7 +88,7 @@ Partial Class Form3_1
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(364, 358)
+        Me.TextBox4.Location = New System.Drawing.Point(411, 372)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(183, 26)
         Me.TextBox4.TabIndex = 213
@@ -97,7 +97,7 @@ Partial Class Form3_1
         '
         Me.Label6.AutoSize = True
         Me.Label6.ForeColor = System.Drawing.Color.Gold
-        Me.Label6.Location = New System.Drawing.Point(311, 308)
+        Me.Label6.Location = New System.Drawing.Point(358, 322)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(35, 20)
         Me.Label6.TabIndex = 212
@@ -105,7 +105,7 @@ Partial Class Form3_1
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(364, 308)
+        Me.TextBox3.Location = New System.Drawing.Point(411, 322)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(183, 26)
         Me.TextBox3.TabIndex = 211
@@ -117,7 +117,7 @@ Partial Class Form3_1
         Me.Gráfica.ChartAreas.Add(ChartArea1)
         Legend1.Name = "Legend1"
         Me.Gráfica.Legends.Add(Legend1)
-        Me.Gráfica.Location = New System.Drawing.Point(825, 92)
+        Me.Gráfica.Location = New System.Drawing.Point(872, 106)
         Me.Gráfica.Name = "Gráfica"
         Series1.ChartArea = "ChartArea1"
         Series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point
@@ -140,7 +140,7 @@ Partial Class Form3_1
         Me.Salida2.BackgroundColor = System.Drawing.Color.Khaki
         Me.Salida2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Salida2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2})
-        Me.Salida2.Location = New System.Drawing.Point(850, 634)
+        Me.Salida2.Location = New System.Drawing.Point(897, 648)
         Me.Salida2.Name = "Salida2"
         Me.Salida2.RowHeadersWidth = 62
         Me.Salida2.RowTemplate.Height = 28
@@ -165,7 +165,7 @@ Partial Class Form3_1
         '
         Me.Button3.BackColor = System.Drawing.Color.Gold
         Me.Button3.Cursor = System.Windows.Forms.Cursors.SizeAll
-        Me.Button3.Location = New System.Drawing.Point(604, 132)
+        Me.Button3.Location = New System.Drawing.Point(651, 146)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(113, 36)
         Me.Button3.TabIndex = 208
@@ -176,7 +176,7 @@ Partial Class Form3_1
         '
         Me.Label5.AutoSize = True
         Me.Label5.ForeColor = System.Drawing.Color.Gold
-        Me.Label5.Location = New System.Drawing.Point(221, 439)
+        Me.Label5.Location = New System.Drawing.Point(268, 453)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(101, 20)
         Me.Label5.TabIndex = 207
@@ -184,7 +184,7 @@ Partial Class Form3_1
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(364, 439)
+        Me.TextBox2.Location = New System.Drawing.Point(411, 453)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(183, 26)
         Me.TextBox2.TabIndex = 206
@@ -193,7 +193,7 @@ Partial Class Form3_1
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.Color.Gold
-        Me.Label4.Location = New System.Drawing.Point(311, 256)
+        Me.Label4.Location = New System.Drawing.Point(358, 270)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 20)
         Me.Label4.TabIndex = 205
@@ -201,7 +201,7 @@ Partial Class Form3_1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(364, 256)
+        Me.TextBox1.Location = New System.Drawing.Point(411, 270)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(183, 26)
         Me.TextBox1.TabIndex = 204
@@ -210,7 +210,7 @@ Partial Class Form3_1
         '
         Me.Button2.BackColor = System.Drawing.Color.Gold
         Me.Button2.Cursor = System.Windows.Forms.Cursors.SizeAll
-        Me.Button2.Location = New System.Drawing.Point(604, 202)
+        Me.Button2.Location = New System.Drawing.Point(651, 216)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(113, 36)
         Me.Button2.TabIndex = 203
@@ -219,7 +219,7 @@ Partial Class Form3_1
         '
         'tvx
         '
-        Me.tvx.Location = New System.Drawing.Point(364, 137)
+        Me.tvx.Location = New System.Drawing.Point(411, 151)
         Me.tvx.Name = "tvx"
         Me.tvx.Size = New System.Drawing.Size(183, 26)
         Me.tvx.TabIndex = 202
@@ -228,7 +228,7 @@ Partial Class Form3_1
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.Gold
-        Me.Label3.Location = New System.Drawing.Point(113, 143)
+        Me.Label3.Location = New System.Drawing.Point(160, 157)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(209, 20)
         Me.Label3.TabIndex = 201
@@ -236,7 +236,7 @@ Partial Class Form3_1
         '
         'tn
         '
-        Me.tn.Location = New System.Drawing.Point(364, 68)
+        Me.tn.Location = New System.Drawing.Point(411, 82)
         Me.tn.Name = "tn"
         Me.tn.Size = New System.Drawing.Size(183, 26)
         Me.tn.TabIndex = 200
@@ -245,7 +245,7 @@ Partial Class Form3_1
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.Color.Gold
-        Me.Label2.Location = New System.Drawing.Point(113, 74)
+        Me.Label2.Location = New System.Drawing.Point(160, 88)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(204, 20)
         Me.Label2.TabIndex = 199
@@ -255,7 +255,7 @@ Partial Class Form3_1
         '
         Me.Label11.AutoSize = True
         Me.Label11.ForeColor = System.Drawing.Color.Gold
-        Me.Label11.Location = New System.Drawing.Point(800, 48)
+        Me.Label11.Location = New System.Drawing.Point(847, 62)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(334, 20)
         Me.Label11.TabIndex = 198
@@ -266,7 +266,7 @@ Partial Class Form3_1
         Me.Salida1.BackgroundColor = System.Drawing.Color.Khaki
         Me.Salida1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Salida1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.índice, Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column8})
-        Me.Salida1.Location = New System.Drawing.Point(51, 492)
+        Me.Salida1.Location = New System.Drawing.Point(98, 506)
         Me.Salida1.Name = "Salida1"
         Me.Salida1.RowHeadersWidth = 62
         Me.Salida1.RowTemplate.Height = 28
@@ -340,7 +340,7 @@ Partial Class Form3_1
         '
         Me.Salir.BackColor = System.Drawing.Color.Gold
         Me.Salir.Cursor = System.Windows.Forms.Cursors.SizeAll
-        Me.Salir.Location = New System.Drawing.Point(604, 349)
+        Me.Salir.Location = New System.Drawing.Point(651, 363)
         Me.Salir.Name = "Salir"
         Me.Salir.Size = New System.Drawing.Size(113, 33)
         Me.Salir.TabIndex = 196
@@ -351,7 +351,7 @@ Partial Class Form3_1
         '
         Me.Button1.BackColor = System.Drawing.Color.Gold
         Me.Button1.Cursor = System.Windows.Forms.Cursors.SizeAll
-        Me.Button1.Location = New System.Drawing.Point(604, 275)
+        Me.Button1.Location = New System.Drawing.Point(651, 289)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(113, 33)
         Me.Button1.TabIndex = 195
@@ -360,7 +360,7 @@ Partial Class Form3_1
         '
         'tc
         '
-        Me.tc.Location = New System.Drawing.Point(364, 202)
+        Me.tc.Location = New System.Drawing.Point(411, 216)
         Me.tc.Name = "tc"
         Me.tc.Size = New System.Drawing.Size(183, 26)
         Me.tc.TabIndex = 194
@@ -369,7 +369,7 @@ Partial Class Form3_1
         '
         Me.Label1.AutoSize = True
         Me.Label1.ForeColor = System.Drawing.Color.Gold
-        Me.Label1.Location = New System.Drawing.Point(113, 208)
+        Me.Label1.Location = New System.Drawing.Point(160, 222)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(162, 20)
         Me.Label1.TabIndex = 193
@@ -382,7 +382,7 @@ Partial Class Form3_1
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.BackgroundImage = Global.MenuMetodosN.My.Resources.Resources.america2
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(1426, 884)
+        Me.ClientSize = New System.Drawing.Size(1521, 913)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TextBox4)

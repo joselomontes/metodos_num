@@ -209,7 +209,7 @@ Partial Class Form1
         Me.Button12.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button12.Size = New System.Drawing.Size(197, 38)
         Me.Button12.TabIndex = 8
-        Me.Button12.Text = "Button12"
+        Me.Button12.Text = "Interpolacion Newton"
         Me.Button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button12.UseVisualStyleBackColor = False
         '

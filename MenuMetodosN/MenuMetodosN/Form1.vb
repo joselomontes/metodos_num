@@ -75,8 +75,7 @@
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-
-        'openChlidForm(New "Nombre del formulario")'
+        openChildForm(New Form3_1())
         hideSubMenu()
     End Sub
 

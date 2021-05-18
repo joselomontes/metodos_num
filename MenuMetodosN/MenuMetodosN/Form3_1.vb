@@ -82,6 +82,5 @@
         'Grafica.Series.Clear()
         Gráfica.Series(0).Points.Clear()
         Gráfica.Series(1).Points.Clear()
-        Gráfica.Series(2).Points.Clear()
     End Sub
 End Class

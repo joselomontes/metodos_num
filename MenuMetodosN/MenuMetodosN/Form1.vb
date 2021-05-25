@@ -80,6 +80,7 @@
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        openChildForm(New Form3_2())
         hideSubMenu()
     End Sub
 

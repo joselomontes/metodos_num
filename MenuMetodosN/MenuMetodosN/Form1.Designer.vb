@@ -191,7 +191,7 @@ Partial Class Form1
         Me.Button11.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
         Me.Button11.Size = New System.Drawing.Size(197, 38)
         Me.Button11.TabIndex = 9
-        Me.Button11.Text = "Button11"
+        Me.Button11.Text = "Integracion rectángulos"
         Me.Button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button11.UseVisualStyleBackColor = False
         '

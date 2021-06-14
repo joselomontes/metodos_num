@@ -80,14 +80,37 @@
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        openChildForm(New Form7())
         hideSubMenu()
     End Sub
 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        openChildForm(New Form3_3())
         hideSubMenu()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        openChildForm(New Form3_5())
+        hideSubMenu()
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        openChildForm(New Form3_4())
+        hideSubMenu()
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        openChildForm(New Form3_6())
+        hideSubMenu()
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        openChildForm(New Form3_7())
+        hideSubMenu()
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        openChildForm(New Form3_8())
         hideSubMenu()
     End Sub
 
@@ -108,7 +131,12 @@
 
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(sender As Object, e As EventArgs)
+        openChildForm(New FormInit())
+        hideSubMenu()
+    End Sub
+
+    Private Sub Button6_Click_1(sender As Object, e As EventArgs) Handles Button6.Click
         openChildForm(New FormInit())
         hideSubMenu()
     End Sub

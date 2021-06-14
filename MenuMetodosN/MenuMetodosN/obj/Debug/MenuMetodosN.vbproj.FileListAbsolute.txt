@@ -66,3 +66,12 @@ C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARC
 C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form5.resources
 C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form6.resources
 C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.FormInit.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form3_1.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form3_3.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form3_4.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form3_5.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form7.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.vbproj.ResolveComReference.cache
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form3_6.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form3_7.resources
+C:\Users\josso\Documents\Josso\UPIICSA\6TO SEMESTRE\MÉTODOS NUMÉRICOS\2DO PARCIAL\metodos_num\MenuMetodosN\MenuMetodosN\obj\Debug\MenuMetodosN.Form3_8.resources

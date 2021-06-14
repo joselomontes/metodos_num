@@ -17,6 +17,7 @@
         vx = tvx.Text
         redon = c + 2
         ReDim x(0 To n), y(0 To n)
+        i = 0
 
         For i = 0 To n - 1
             x(i) = InputBox("x(" & i & ") =")
@@ -68,19 +69,5 @@
     End Sub
     Private Sub Salir_Click(sender As Object, e As EventArgs) Handles Salir.Click
         End
-    End Sub
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        tc.Clear()
-        tn.Clear()
-        tvx.Clear()
-        TextBox4.Clear()
-        TextBox1.Clear()
-        TextBox2.Clear()
-        TextBox3.Clear()
-        Salida1.Rows.Clear()
-        Salida1.Rows.Clear()
-        'Grafica.Series.Clear()
-        Gráfica.Series(0).Points.Clear()
-        Gráfica.Series(1).Points.Clear()
     End Sub
 End Class

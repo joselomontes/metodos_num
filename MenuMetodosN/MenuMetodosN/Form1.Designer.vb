@@ -28,6 +28,7 @@ Partial Class Form1
         Me.Button6 = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PanelDepa3 = New System.Windows.Forms.Panel()
+        Me.Button13 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
@@ -47,6 +48,9 @@ Partial Class Form1
         Me.Depa1 = New System.Windows.Forms.Button()
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
         Me.PanelChildForm.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelSideMenu.SuspendLayout()
@@ -64,7 +68,7 @@ Partial Class Form1
         Me.PanelChildForm.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelChildForm.Location = New System.Drawing.Point(223, 0)
         Me.PanelChildForm.Name = "PanelChildForm"
-        Me.PanelChildForm.Size = New System.Drawing.Size(1078, 871)
+        Me.PanelChildForm.Size = New System.Drawing.Size(1078, 943)
         Me.PanelChildForm.TabIndex = 1
         '
         'PictureBox3
@@ -95,7 +99,7 @@ Partial Class Form1
         Me.PanelSideMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelSideMenu.Location = New System.Drawing.Point(0, 0)
         Me.PanelSideMenu.Name = "PanelSideMenu"
-        Me.PanelSideMenu.Size = New System.Drawing.Size(223, 871)
+        Me.PanelSideMenu.Size = New System.Drawing.Size(223, 943)
         Me.PanelSideMenu.TabIndex = 0
         '
         'Button6
@@ -108,11 +112,11 @@ Partial Class Form1
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.AliceBlue
-        Me.Button6.Location = New System.Drawing.Point(0, 738)
+        Me.Button6.Location = New System.Drawing.Point(0, 994)
         Me.Button6.Name = "Button6"
         Me.Button6.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.Button6.Size = New System.Drawing.Size(197, 63)
-        Me.Button6.TabIndex = 4
+        Me.Button6.Size = New System.Drawing.Size(197, 60)
+        Me.Button6.TabIndex = 5
         Me.Button6.Text = "PANTALLA PRINCIPAL"
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button6.UseVisualStyleBackColor = False
@@ -122,7 +126,7 @@ Partial Class Form1
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.PictureBox2.Image = Global.MenuMetodosN.My.Resources.Resources.hamtaro
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 801)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 1054)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(197, 92)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -131,6 +135,10 @@ Partial Class Form1
         '
         'PanelDepa3
         '
+        Me.PanelDepa3.Controls.Add(Me.Button16)
+        Me.PanelDepa3.Controls.Add(Me.Button15)
+        Me.PanelDepa3.Controls.Add(Me.Button14)
+        Me.PanelDepa3.Controls.Add(Me.Button13)
         Me.PanelDepa3.Controls.Add(Me.Button1)
         Me.PanelDepa3.Controls.Add(Me.Button10)
         Me.PanelDepa3.Controls.Add(Me.Button11)
@@ -138,8 +146,26 @@ Partial Class Form1
         Me.PanelDepa3.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelDepa3.Location = New System.Drawing.Point(0, 580)
         Me.PanelDepa3.Name = "PanelDepa3"
-        Me.PanelDepa3.Size = New System.Drawing.Size(197, 158)
+        Me.PanelDepa3.Size = New System.Drawing.Size(197, 414)
         Me.PanelDepa3.TabIndex = 1
+        '
+        'Button13
+        '
+        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button13.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Button13.FlatAppearance.BorderSize = 0
+        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button13.ForeColor = System.Drawing.Color.Navy
+        Me.Button13.Location = New System.Drawing.Point(0, 215)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
+        Me.Button13.Size = New System.Drawing.Size(197, 61)
+        Me.Button13.TabIndex = 12
+        Me.Button13.Text = "Simpson 1/3"
+        Me.Button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button13.UseVisualStyleBackColor = False
         '
         'Button1
         '
@@ -150,12 +176,12 @@ Partial Class Form1
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.ForeColor = System.Drawing.Color.Navy
-        Me.Button1.Location = New System.Drawing.Point(0, 114)
+        Me.Button1.Location = New System.Drawing.Point(0, 170)
         Me.Button1.Name = "Button1"
         Me.Button1.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button1.Size = New System.Drawing.Size(197, 38)
+        Me.Button1.Size = New System.Drawing.Size(197, 45)
         Me.Button1.TabIndex = 11
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Cuadratura de Gauss"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -168,12 +194,12 @@ Partial Class Form1
         Me.Button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.ForeColor = System.Drawing.Color.Navy
-        Me.Button10.Location = New System.Drawing.Point(0, 76)
+        Me.Button10.Location = New System.Drawing.Point(0, 116)
         Me.Button10.Name = "Button10"
         Me.Button10.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button10.Size = New System.Drawing.Size(197, 38)
+        Me.Button10.Size = New System.Drawing.Size(197, 54)
         Me.Button10.TabIndex = 10
-        Me.Button10.Text = "Button10"
+        Me.Button10.Text = "Integración de rectángulos"
         Me.Button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button10.UseVisualStyleBackColor = False
         '
@@ -186,12 +212,12 @@ Partial Class Form1
         Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button11.ForeColor = System.Drawing.Color.Navy
-        Me.Button11.Location = New System.Drawing.Point(0, 38)
+        Me.Button11.Location = New System.Drawing.Point(0, 58)
         Me.Button11.Name = "Button11"
         Me.Button11.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button11.Size = New System.Drawing.Size(197, 38)
+        Me.Button11.Size = New System.Drawing.Size(197, 58)
         Me.Button11.TabIndex = 9
-        Me.Button11.Text = "Button11"
+        Me.Button11.Text = "Integración de trapecios"
         Me.Button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button11.UseVisualStyleBackColor = False
         '
@@ -207,7 +233,7 @@ Partial Class Form1
         Me.Button12.Location = New System.Drawing.Point(0, 0)
         Me.Button12.Name = "Button12"
         Me.Button12.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button12.Size = New System.Drawing.Size(197, 38)
+        Me.Button12.Size = New System.Drawing.Size(197, 58)
         Me.Button12.TabIndex = 8
         Me.Button12.Text = "Interpolacion Newton"
         Me.Button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -457,12 +483,66 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'Button14
+        '
+        Me.Button14.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button14.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Button14.FlatAppearance.BorderSize = 0
+        Me.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button14.ForeColor = System.Drawing.Color.Navy
+        Me.Button14.Location = New System.Drawing.Point(0, 276)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
+        Me.Button14.Size = New System.Drawing.Size(197, 32)
+        Me.Button14.TabIndex = 13
+        Me.Button14.Text = "Euler"
+        Me.Button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button14.UseVisualStyleBackColor = False
+        '
+        'Button15
+        '
+        Me.Button15.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button15.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Button15.FlatAppearance.BorderSize = 0
+        Me.Button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button15.ForeColor = System.Drawing.Color.Navy
+        Me.Button15.Location = New System.Drawing.Point(0, 308)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
+        Me.Button15.Size = New System.Drawing.Size(197, 60)
+        Me.Button15.TabIndex = 14
+        Me.Button15.Text = "Euler Mejorado"
+        Me.Button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button15.UseVisualStyleBackColor = False
+        '
+        'Button16
+        '
+        Me.Button16.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button16.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Button16.FlatAppearance.BorderSize = 0
+        Me.Button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button16.ForeColor = System.Drawing.Color.Navy
+        Me.Button16.Location = New System.Drawing.Point(0, 368)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
+        Me.Button16.Size = New System.Drawing.Size(197, 45)
+        Me.Button16.TabIndex = 15
+        Me.Button16.Text = "Runge Kutta"
+        Me.Button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button16.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(1301, 871)
+        Me.ClientSize = New System.Drawing.Size(1301, 943)
         Me.Controls.Add(Me.PanelChildForm)
         Me.Controls.Add(Me.PanelSideMenu)
         Me.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -506,5 +586,9 @@ Partial Class Form1
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents MínimosCuad As Button
     Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Button13 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents Button14 As Button
+    Friend WithEvents Button15 As Button
+    Friend WithEvents Button16 As Button
 End Class

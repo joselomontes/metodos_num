@@ -121,6 +121,42 @@
     <Compile Include="Form3_1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form3_3.Designer.vb">
+      <DependentUpon>Form3_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_4.Designer.vb">
+      <DependentUpon>Form3_4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_5.Designer.vb">
+      <DependentUpon>Form3_5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_6.Designer.vb">
+      <DependentUpon>Form3_6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_7.Designer.vb">
+      <DependentUpon>Form3_7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_8.Designer.vb">
+      <DependentUpon>Form3_8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_8.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form4.Designer.vb">
       <DependentUpon>Form4.vb</DependentUpon>
     </Compile>
@@ -137,6 +173,12 @@
       <DependentUpon>Form6.vb</DependentUpon>
     </Compile>
     <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormInit.Designer.vb">
@@ -183,6 +225,24 @@
     <EmbeddedResource Include="Form3_1.resx">
       <DependentUpon>Form3_1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form3_3.resx">
+      <DependentUpon>Form3_3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_4.resx">
+      <DependentUpon>Form3_4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_5.resx">
+      <DependentUpon>Form3_5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_6.resx">
+      <DependentUpon>Form3_6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_7.resx">
+      <DependentUpon>Form3_7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_8.resx">
+      <DependentUpon>Form3_8.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.vb</DependentUpon>
     </EmbeddedResource>
@@ -191,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInit.resx">
       <DependentUpon>FormInit.vb</DependentUpon>
@@ -240,6 +303,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\america2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
